@@ -70,5 +70,12 @@ git checkout ramaDesarrollo
 ```bash
 git add .
 git commit -m 'Cambios en la ramaDesarrollo' -a
-git 
+```
+5. Volver a la rama master
+```bash
+git checkout master
+```
+6. fusionar los cambios de la ramaDesarrollo a master
+```bash
+git merge ramaDesarrollo
 ```
